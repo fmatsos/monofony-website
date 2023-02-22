@@ -1,0 +1,4 @@
+/node_modules
+/public/build
+docker-dev.lock
+package-lock.json
