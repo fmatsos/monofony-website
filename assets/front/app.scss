@@ -1,3 +1,34 @@
 @import "~tailwindcss/base";
 @import "~tailwindcss/components";
 @import "~tailwindcss/utilities";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&display=swap');
+
+#menu-toggle:checked + #menu {
+  display: block;
+}
+
+#menu-toggle:checked + #connect {
+  display: block;
+}
+
+h1, h2 {
+  @apply font-poppins;
+}
+
+nav {
+  a {
+    text-decoration: none;
+    display: block;
+  }
+
+  div {
+    height: 2px;
+    @apply bg-light-blue;
+    width: 0;
+    transition: 0.7s;
+  }
+
+  li:hover>div {
+    width: 100%;
+  }
+}
