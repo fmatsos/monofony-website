@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth antialiased">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <title>Monofony</title>
+
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+    <link href="build/front/app.css" rel="stylesheet" />
+
+    <link rel="icon" href="build/front/images/favicon.ico">
+
+    <script src="build/front/runtime.js" defer></script>
+    <script src="build/front/app.js" defer></script>
+</head>
+<body>
+<div class="relative bg-dark-blue">
+    <div>
+        <nav class="text-white font-poppins pt-8 flex">
+            <img src="build/front/images/logo_monofony.png" alt="logo monofony" class="hidden w-32 mx-auto max-w-md px-4 lg:max-w-7xl lg:flex">
+
+            <ul class="hidden mx-auto max-w-md px-4 tracking-tight text-xl sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:gap-x-5 lg:flex lg:justify-end">
+                <li>
+                    <a href="#what">What</a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="#base">Base</a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="#admin-panel">Admin Panels</a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="#business-logics">Business Logics</a>
+                    <div></div>
+                </li>
+                <li>
+                    <a href="#api-platform">Api-Platform</a>
+                    <div></div>
+                </li>
+
+                <li>
+                    <a href="https://demo.monofony.com/" class="text-light-blue" target="_blank">DEMO</a>
+                    <div></div>
+                </li>
+            </ul>
+        </nav>
+
+        <label for="menu-toggle" class="z-10 block cursor-pointer flex justify-end mr-20 lg:hidden">
+            <img src="build/front/images/burger.svg" alt="icone menu burger" class="w-10"/>
+        </label>
+    </div>
+
+    <input type="checkbox" class="hidden" id="menu-toggle"/>
+
+    <div class="absolute right-0 hidden w-2/4 bg-white-blue border-b-8 border-dark-blue mr-20" id="menu">
+        <nav>
+            <img src="build/front/images/logo_monofony.png" alt="logo monofony" class="pt-3 w-40 mx-auto max-w-md px-4 lg:max-w-7xl">
+
+            <ul class="mx-auto max-w-md px-4 text-dark-blue tracking-tight flex text-right flex-col gap-y-4 py-8 text-xl sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl">
+                <li>
+                    <a href="#what">What</a>
+                    <div></div>
+                </li>
+
+                <li>
+                    <a href="#base">Base</a>
+                    <div></div>
+                </li>
+
+                <li>
+                    <a href="#admin-panel">Admin Panels</a>
+                    <div></div>
+                </li>
+
+                <li>
+                    <a href="#business-logics">Business Logics</a>
+                    <div></div>
+                </li>
+
+                <li>
+                    <a href="#api-platform">Api-Platform</a>
+                    <div></div>
+                </li>
+
+                <li>
+                    <a href="https://demo.monofony.com/" class="text-light-blue" target="_blank">DEMO</a>
+                    <div></div>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="overflow-hidden">
+        <main>
+            <section class="pb-8 sm:pb-12 lg:pb-12">
+                <div class="pt-8 overflow-hidden sm:pt-12 lg:relative lg:py-32">
+                    <div class="mx-auto max-w-md px-4 sm:max-w-3xl sm:px-6 lg:px-8 lg:max-w-7xl lg:grid lg:grid-cols-2 lg:gap-24">
+                        <div class="flex items-center">
+                            <div class="mt-6 sm:max-w-xl">
+                                <h1 class="text-4xl font-extrabold text-white-blue tracking-tight sm:text-5xl">Monofony</h1>
+                                <p class="mt-6 text-xl text-gray-100">A simple and flexible plugin built on top of Sylius ecommerce platform. Same spirit, same possibilities.</p>
+                            </div>
+                        </div>
+
+                        <div class="flex justify-center">
+                            <img src="build/front/images/first.svg" alt="logo monofony" class="w-3/4 lg:w-full">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="what" class="relative bg-white -skew-y-12 py-20 md:py-32 lg:py-40">
+                <div class="mx-auto max-w-md px-4 text-center skew-y-12 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+                    <h1 class="mt-2 text-3xl font-extrabold tracking-tight text-dark-blue sm:text-4xl">What is Monofony ?</h1>
+                    <p class="mx-auto mt-5 max-w-prose text-xl text-gray-500">
+                        Monofony is a Symfony application scaffold that allows you to bootstrap a modern application by
+                        leveraging Sylius bundles and components, helping you to focus more on what truly matters to your
+                        use-case, rather than on the underlying infrastructure required to power things up.
+                    </p>
+
+                    <div class="mt-12 m-auto w-1/4">
+                        <a href="https://demo.monofony.com/" class="text-center block w-full rounded-md border border-transparent px-5 py-3 bg-light-blue text-base font-medium text-white shadow hover:bg-hover-light-blue focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 sm:px-10" target="_blank">Ask for Demo</a>
+                    </div>
+                </div>
+            </section>
+
+            <section id="base" class="bg-white-blue skew-y-12 py-20 md:py-32 lg:py-40">
+                <img src="build/front/images/based.svg" alt="" class="absolute -skew-y-12 -top-20 left-5 w-1/3 lg:w-80 xl:left-1/4 lg:top-1/4">
+
+                <div class="max-w-7xl mx-auto -skew-y-12 px-4 sm:px-6 lg:px-8 text-right">
+                    <h2 class="text-3xl font-extrabold text-dark-blue tracking-tight mt-10 md:mt-20">Based on top of Symfony & Sylius</h2>
+                    <div class="mt-6 border-t border-dark-blue border-opacity-25 pt-10">
+                        <p class="ml-auto mt-5 max-w-prose text-xl text-dark-blue">
+                            It’s an open-source micro-framework created by Loïc Frémont (a Sylius core team member).
+                            The project is based on top of the famous Sylius Resource & Grid bundles. It takes advantage
+                            of the Sylius power without the e-commerce part.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="admin-panel" class="skew-y-12 py-20 md:py-32 lg:py-40">
+                <div class="max-w-7xl mx-auto px-4 -skew-y-12 pb-20 sm:px-6 md:pb-32 lg:px-8">
+                    <h2 class="text-3xl font-extrabold tracking-tight text-white-blue sm:text-4xl">Create admin panels</h2>
+                    <div class="mt-6 border-t border-white-blue border-opacity-25 pt-10">
+                        <p class="text-xl text-gray-100">
+                            These packages from Sylius are one of the biggest force of the project and creating admin
+                            panels has never been easier. It relies on the power of Doctrine ORM and Symfony to
+                            auto-generate filtered grids and pages to browse, read, add, edit or delete a resource.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="business-logics" class="bg-white skew-y-12 py-20 md:py-32 lg:py-40">
+                <div class="relative max-w-7xl mx-auto px-4 -skew-y-12 pb-20 sm:px-6 md:pb-32 lg:px-8">
+                    <h2 class="text-3xl font-extrabold tracking-tight text-dark-blue">Implements your business logics</h2>
+                    <div class="mt-6 border-t border-dark-blue border-opacity-25 pt-10">
+                        <p class="text-xl text-dark-blue">
+                            This project is an alternative to EasyAdmin and Sonata-admin in PHP/Symfony ecosystem.
+                            Where the project stands out is in its flexibility and in its self-generated interfaces in
+                            order to integrate business logics.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="api-platform" class="relative bg-white-blue -skew-y-12 py-20 md:py-32 lg:py-40">
+                <div class="mx-auto max-w-md px-4 text-center skew-y-12 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
+                    <h1 class="mt-2 text-3xl font-extrabold tracking-tight text-dark-blue sm:text-4xl">Use API-Platform for your API</h1>
+                    <p class="mx-auto mt-5 max-w-prose text-xl text-dark-blue">
+                        Use the Symfony official API package “API-Platform” to create your endpoints. An optional package
+                        is available to setup your first endpoints for security ones such as login, register, forgotten
+                        password.
+                    </p>
+                </div>
+
+                <img src="build/front/images/computer.svg" alt="" class="absolute -top-20 skew-y-12 w-2/5 right-5 md:w-1/4 md:right-28">
+            </section>
+        </main>
+
+        <footer class="bg-white">
+            <div class="max-w-7xl mx-auto gap-x-10 h-32 py-12 px-4 sm:px-6 md:flex md:items-center md:justify-end lg:px-8">
+                <div class="flex justify-center md:order-2 gap-3">
+                    <a href="https://github.com/Monofony" class="text-gray-400 hover:text-gray-500" target="_blank">
+                        <span class="sr-only">GitHub</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                            <path fill-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.531 1.032 1.531 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z" clip-rule="evenodd" />
+                        </svg>
+                    </a>
+
+                    <a href="https://demo.monofony.com/" class="text-gray-400 hover:text-gray-500" target="_blank">DEMO</a>
+                </div>
+
+                <div class="mt-8 md:mt-0 md:order-1">
+                    <p class="text-center text-base text-gray-400">&copy; 2023 Monofony.</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+</body>
+</html>
