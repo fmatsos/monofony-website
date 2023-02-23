@@ -26,5 +26,5 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.docker.network=traefik"
-      - "traefik.frontend.rule=Host:marketplace.mformono.localhost"
+      - "traefik.frontend.rule=Host:www.monofony.localhost"
       - "traefik.port=80"
