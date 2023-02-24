@@ -20,6 +20,9 @@ module.exports = {
         sans: ['Inter var', ...defaultTheme.fontFamily.sans],
         poppins: ['Poppins', ...defaultTheme.fontFamily.sans]
       },
+      screens: {
+        '4xl': '2600px',
+      },
     },
   },
   variants: {},
